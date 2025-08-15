@@ -1,6 +1,6 @@
-# libstm32h743-hal
+# stm32h723-hal
 
-为 stm32h743 导入 HAL 库。
+为 stm32h723 导入 HAL 库。
 
 # 导入过程
 
@@ -51,13 +51,13 @@
 # 通过 cmake 添加预定义宏
 
 1. USE_HAL_DRIVER 是一定要定义的。
-2. 因为是为 stm32h743iit6 导入 HAL 库，所以要定义 STM32H743xx.
+2. 因为是为 stm32h723iit6 导入 HAL 库，所以要定义 STM32H723xx.
 
 ```cmake
 target_compile_definitions(
 	${ProjectName} PUBLIC
 	USE_HAL_DRIVER=1
-	STM32H743xx=1
+	STM32H723xx=1
 )
 ```
 

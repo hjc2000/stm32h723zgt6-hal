@@ -1,14 +1,13 @@
 #pragma once
 // IWYU pragma: begin_exports
 
-#include "stm32h743xx.h"
+#include "stm32h723xx.h"
 #include "stm32h7xx_hal.h"
 #include "stm32h7xx_hal_cortex.h"
 
 #include "core_cm7.h"
 #include "stm32h7xx_hal_def.h"
-#include "stm32h7xx_hal_eth_ex_legacy.h"
-#include "stm32h7xx_hal_eth_legacy.h"
+#include "stm32h7xx_hal_eth.h"
 #include "stm32h7xx_hal_gpio.h"
 #include "stm32h7xx_hal_gpio_ex.h"
 #include "stm32h7xx_hal_rcc.h"
